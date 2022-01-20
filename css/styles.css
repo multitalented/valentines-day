@@ -1,0 +1,232 @@
+img.reason {
+  /* width: 25%; */
+}
+
+/* img.cover {
+  width: 25%;
+} */
+body {
+  /* background-image: image("images/mattdeanna1.jpeg"); */
+  text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.left-side h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+}
+
+.right-side h1 {
+  /* text-align: right; */
+  padding-top: 300px;
+  width: 40%;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  /* line-height: 1rem; */
+  float: right;
+  padding-right: 100px;
+}
+
+h2 {
+  padding: 30px 0px;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.top {
+  display: flex;
+  /* background-color: #F05454; */
+  /* background-image: url("../images/mattdeanna1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  height: 800px;
+}
+.left-side {
+  /* display: flex; */
+  float: left;
+}
+
+.left-side img {
+  width: 75%;
+  margin: 0;
+}
+
+.right-side {
+  /* display: flex; */
+  /* float: right; */
+  background-image: url("../images/us-backjeep.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.middle {
+  background-color: pink;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  /* margin: 0; */
+  margin: 2% auto;
+  background-color: #ffccdb;
+  box-shadow: 10px 10px 10px black;
+  padding: 50px;
+
+}
+
+.reason-left {
+  display: flex;
+  float: left;
+  width: 50%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.reason-right {
+  display: flex;
+  float: right;
+  width: 50%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.img-left {
+  display: flex;
+  float: left;
+  /* width: 50%; */
+  max-width: 40%;
+}
+
+.img-right {
+  display: flex;
+  float: right;
+  /* width: 50%; */
+  max-width: 50%;
+}
+
+.bottom {
+  padding: 50px 0;
+}
+
+.bottom h2 {
+  /* padding: 100px 0 0; */
+}
+
+
+.footer {
+  height: 150px;
+  background-color: #7d0025;
+}
+
+.footer p {
+  all: revert;
+  padding-top: 50px;
+  color: white;
+  /* font-weight: lighter; */
+  /* font-family: serif; */
+}
+
+/* F5F5F5
+F05454
+30475E
+121212 */
+
+
+
+/* Adjust to smaller screen size - mobile  */
+@media screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+/*
+  .brand {
+    visibility: hidden;
+    font-size: 2rem;
+    background-color: #181D31;
+    width: 100%;
+  }
+
+  .main {
+    padding-top: 75px;
+    background-color: #E6DDC4;
+  } */
+
+
+
+
+  .left-side h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+  }
+
+  .right-side h1 {
+    all: revert;
+
+    padding-top: 300px;
+    /* width: 40%; */
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    /* float: right; */
+    padding-right: 100px;
+  }
+
+  .top {
+    all: revert;
+    /* height: 800px; */
+  }
+  .left-side {
+    all: revert;
+  }
+
+  .left-side img {
+    all: revert;
+    width: 50%;
+  }
+
+  .right-side {
+    height: 100%;
+    background-image: url("../images/us-backjeep.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .reason-left {
+    all: revert;
+    /* padding-bottom: 50px; */
+    display: block;
+    width: 100%;
+  }
+
+  .img-right {
+    all: revert;
+    display: block;
+    /* max-width: 30%; */
+    max-width: 80%;
+    /* max-height: 50%; */
+    margin: auto;
+    padding: 20px 0;
+  }
+
+  .reason-right {
+    all: revert;
+    display: block;
+    width: 100%;
+  }
+
+  .img-left {
+    all: revert;
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px 0;
+  }
+}
