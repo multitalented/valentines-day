@@ -1,10 +1,3 @@
-img.reason {
-  /* width: 25%; */
-}
-
-/* img.cover {
-  width: 25%;
-} */
 body {
   /* background-image: image("images/mattdeanna1.jpeg"); */
   text-align: center;
@@ -39,11 +32,6 @@ p {
 
 .top {
   display: flex;
-  /* background-color: #F05454; */
-  /* background-image: url("../images/mattdeanna1.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
   height: 800px;
 }
 .left-side {
@@ -66,19 +54,13 @@ p {
 }
 
 .middle {
-  /* background-color: pink; */
-  background-color: #FBE5E5;
-  background-color: #FFA1C9;
   background-color: #ffd4d4;
-  /* text-align: center; */
 }
 
 .container {
   display: flex;
   width: 100%;
-  /* margin: 0; */
   margin: 2% auto;
-  /* background-color: #ffccdb; */
   background-color: #FBE5E5;
   box-shadow: 10px 10px 10px black;
   padding: 50px;
@@ -103,7 +85,6 @@ p {
 
 .reason-right p {
   text-align: center;
-  /* color: #E60965; */
 }
 
 
@@ -118,7 +99,6 @@ p {
 
 .footer {
   height: 150px;
-  /* background-color: #7d0025; */
   background-color: #E60965;
 }
 
@@ -126,8 +106,6 @@ p {
   all: revert;
   padding-top: 50px;
   color: white;
-  /* font-weight: lighter; */
-  /* font-family: serif; */
 }
 
 /* F5F5F5
